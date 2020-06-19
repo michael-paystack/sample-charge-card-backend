@@ -2,7 +2,7 @@
 require('dotenv').load();
 
 // paystack module is required to make charge token call
-var paystack = require('paystack')(process.env.PAYSTACK_SECRET_KEY);
+var paystack = require('./paystack')(process.env.PAYSTACK_SECRET_KEY);
 
 // uuid module is required to create a random reference number
 var uuid     = require('node-uuid');

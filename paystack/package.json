@@ -1,0 +1,61 @@
+{
+  "_from": "paystack@^1.1.0",
+  "_id": "paystack@1.4.1",
+  "_inBundle": false,
+  "_integrity": "sha1-luh41eAEZ+6B6TyZ9JeLbPrQUtI=",
+  "_location": "/paystack",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "paystack@^1.1.0",
+    "name": "paystack",
+    "escapedName": "paystack",
+    "rawSpec": "^1.1.0",
+    "saveSpec": null,
+    "fetchSpec": "^1.1.0"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/paystack/-/paystack-1.4.1.tgz",
+  "_shasum": "96e878d5e00467ee81e93c99f4978b6cfad052d2",
+  "_spec": "paystack@^1.1.0",
+  "_where": "/Users/michaelobi/workspace/sample-charge-card-backend",
+  "author": {
+    "name": "Opeyemi Obembe",
+    "email": "kehers@gmail.com",
+    "url": "http://obem.be/opeyemi"
+  },
+  "bugs": {
+    "url": "https://github.com/kehers/paystack/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "request": "^2.67.0"
+  },
+  "deprecated": false,
+  "description": "Paystack API wrapper",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.1.0"
+  },
+  "homepage": "https://github.com/kehers/paystack",
+  "keywords": [
+    "payment",
+    "API",
+    "naira",
+    "paystack"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "paystack",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kehers/paystack.git"
+  },
+  "scripts": {
+    "test": "mocha ./test/*.js --reporter spec --timeout 5000"
+  },
+  "version": "1.4.1"
+}

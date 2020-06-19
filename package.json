@@ -19,6 +19,6 @@
     "dotenv": "^2.0.0",
     "express": "^4.13.4",
     "node-uuid": "^1.4.7",
-    "paystack": "^1.1.0"
+    "request": "^2.67.0"
   }
 }
