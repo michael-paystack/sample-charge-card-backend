@@ -5,13 +5,9 @@ Paystack API wrapper
 
 'use strict';
 const usePaystackStudio = process.env.PAYSTACK_STUDIO
-var apiUrl = 'https://api.paystack.co'
-if (usePaystackStudio) {
-  apiUrl = 'https://studio-api.paystack.co'
-}
 var
     request = require('request')
-    ,root = apiUrl
+    ,root = 'https://studio-api.paystack.co'
 ;
 
 var resources = {
